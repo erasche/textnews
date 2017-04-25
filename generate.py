@@ -10,8 +10,9 @@ from random import Random
 import feedparser
 
 DATA = sys.argv[1]
+OUT = sys.argv[1]
 NOW = datetime.datetime.now()
-with open(DATA, 'r') as handle:
+with open(DATA, 'r', encoding='utf-8') as handle:
     conf = yaml.load(handle)
 
 
@@ -152,4 +153,5 @@ p.yesterday a:link {{ color: #333; }}
     fh.write('<p>Deutsche Nachrichten als reiner Text. <a href="https://github.com/qznc/textnews">Code auf GitHub</a>.</p>')
     fh.write("</body></html>")
 
-generate(sys.stdout)
+with open(OUT, 'w', encoding='utf-8') as handle:
+    generate(handle)
