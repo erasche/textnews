@@ -1,0 +1,28 @@
+feeds:
+    lobsters:
+        url: https://lobste.rs/rss
+        weight: 3
+    HN:
+        url: https://news.ycombinator.com/rss
+        weight: -1
+weights:
+    keyword:
+        5: |
+            kernel exploit rasperry pi
+        -5: |
+            tag\sproposal doubly-linked rust javascript
+        -21: |
+            has\sdied google\scloud aws lambda square yik yak social app
+            uber lyft apple app\sstore ceo ycombinator ruby
+    tags:
+        10: |
+            hardware
+    sources:
+        15: |
+            phys.org npr.org
+        5: |
+            arxiv.org arstechnica.com
+        -5: |
+            bloomberg.com
+        -21: |
+            youtube.com ycombinator.com

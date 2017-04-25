@@ -1,0 +1,109 @@
+feeds:
+    ZEIT:
+        url: http://newsfeed.zeit.de/index
+        weight: 2
+    SpOn:
+        url: http://www.spiegel.de/index.rss
+        weight: 1
+    FAZ:
+        url: http://www.faz.net/rss/aktuell/
+        weight: 2
+    SZ:
+        url: http://rss.sueddeutsche.de/rss/Topthemen
+        weight: 2
+    Heise:
+        url: https://www.heise.de/newsticker/heise-top-atom.xml
+    Taz:
+        url: https://www.taz.de/!p4608;rss/
+        weight: -1
+    Focus:
+        url: http://rss.focus.de/
+    RT:
+        url: https://deutsch.rt.com/feeds/news/
+        weight: -2
+    TP:
+        url: https://www.heise.de/tp/news-atom.xml
+    HB:
+        url: http://www.handelsblatt.com/contentexport/feed/top-themen/
+        weight: 2
+    Compact:
+        url: https://www.compact-online.de/feed/
+        weight: -1
+    Correctiv:
+        url: https://correctiv.org/artikel/feeds/
+        weight: 3
+    NP:
+        url: https://netzpolitik.org/feed/
+        weight: 3
+    WU:
+        url: http://www.wahlumfrage.de/feed/
+    Carta:
+        url: https://feeds2.feedburner.com/carta-homepage-rss
+    BG:
+        url: https://feeds.feedburner.com/BerlinerGazette
+    Konj:
+        url: https://www.konjunktion.info/feed/
+        weight: 1
+    NZZ:
+        url: https://www.nzz.ch/international.rss
+        weight: 2
+    Freitag:
+        url: https://www.freitag.de/politik/@@RSS
+    Cicero:
+        url: http://cicero.de/rss.xml
+    WiWo:
+        url: http://www.wiwo.de/contentexport/feed/rss/schlagzeilen
+    NDS:
+        url: http://www.nachdenkseiten.de/?feed=atom
+weights:
+    tags:
+        -21: |
+            mode video bundesliga
+    keyword:
+        31: |
+            lidl aldi karlsruhe snowden
+        21: |
+            datenschutz netzpol amnesty ceta aleppo wikipedia eugh maidan nafta
+            nato uno krankenkasse vg-wort guantanamo fukushima bitcoin lammert
+        15: |
+            türkei putin hochschule urteil verdi apple google microsoft ibm iwf ezb
+            griechenland volksbegehren brexit airbus pentagon energiewende
+            windkraft lindner paragraf ditib nobelpreis armutsgrenze bundesbank
+            betriebsrat sparkurs bundesrat shinzō libyen mogherini indexfond orbán
+            panama-papers juncker netanyahu deutsche bank cyber-sicherheit yellen
+            windenergie maizière
+        9: |
+            nsu korruption siedlung steinmeier überwachung fracking android
+            bundesverwaltungsgericht bundesnetzagentur nationalpark syri winterkorn
+            piëch afghan erdoğan böhmermann wissenschaft endlager palästin nahost
+            tsipras rente unternehmenssteuer wilders krankenversicherung gesetz
+            klimaschutz jong-un trudeau BND drohnen peugeot opel orbán reisepass
+        7: |
+            afd usa trump minister bundestag wahl e-sport gentechnik merkel amazon
+            ebay paypal altmaier schäuble grexit ukraine agrar portugal sanktionen
+            samsung gysi lagarde vorratsspeicherung norovirus unilever
+            patientenakte bannon telefónica sudan unicef fintech salafis sufis
+            exportüberschuss telekom passwort bertelsmann kindergeld martin schulz
+        2: |
+            ddos berlin china bundespolizei russland japan lebensversicherung
+            präsident facebook anschlag europa deutsch immobilie whatsapp google
+            mcmaster leistungsschutzrecht bafin le\spen
+        -1: |
+            experte deepmind gauland bundeswehr delfin foto generation vorwürfe
+            unmut übersicht paukenschlag dax mord hollywood kampf oscar homöopath
+        -8: |
+            film wunder unisex tweet top\sten fantasi sexuell vögel fußball dfb
+            wahrheit manager salat voodoo berlinale portal theater schmutzig killer
+            kolumne ? skandal cowboy essay kritik münchen selfie mode terror
+            emotion viral nachruf sonneborn seehofer kokain marx junkie ikone
+            egoismus karikatur promi schock kreissäge valentinstag nackt könnte
+            bizarr spiel stur gefährlich hinweise meinung goethe schiller karneval
+            fasnacht fastnacht fasching pizza hölle damokles teambuilding doping
+            knigge
+        -19: |
+            kunst mies bayern horror brutal compact protz social wollmilch olympia
+            kommentar +++ schicksal billig troll hashtag betrunken lügendetektor
+            thriller mutig spektakulär krass checkliste ! zombie willkommen
+            elfmeter spiegel tv video sex ficken saufen schonungslos trumpismus
+            crazy kamikaze buchtipp verkackt playboy gastbeitrag shitstorm wäre
+            abgemagert einhorn
