@@ -18,9 +18,9 @@ feeds:
 weights:
     keyword:
         15: |
-            kernel exploit gehackt rusland europa
+            kernel exploit gehackt rusland europa security
         5: |
-            raspberry pi vim mh370
+            raspberry pi vim mh370 compilers go python
         -5: |
             tag%proposal doubly-linked rust javascript galaxy%s8 kickstarter
         -21: |
