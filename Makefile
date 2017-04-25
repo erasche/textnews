@@ -16,7 +16,7 @@ post:
 	@echo '</ul></body></html>' >> index.html
 
 %.html: %.yml
-	python3 generate.py $< > $@
+	python3 generate.py $< $@
 	@printf '<li><a href="%s">%s</a></li>' $@ $@ >> index.html
 
 clean:
