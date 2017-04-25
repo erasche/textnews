@@ -4,7 +4,14 @@ feeds:
         weight: 3
     HN:
         url: https://news.ycombinator.com/rss
-        weight: -1
+        weight: -3
+    Tweakers:
+        url: https://feeds.feedburner.com/tweakers/mixed
+        weight: 1
+    NOS_Tech:
+        url: http://feeds.nos.nl/nosnieuwstech
+    nunl_tech:
+        url: http://www.nu.nl/rss/tech
 weights:
     keyword:
         5: |

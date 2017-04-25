@@ -1,0 +1,10 @@
+feeds:
+    NOS_nieuwpolitiek:
+        url: http://feeds.nos.nl/nosnieuwspolitiek
+    NOS_cultuur:
+        url: http://feeds.nos.nl/nosnieuwscultuurenmedia
+    nunl:
+        url: http://www.nu.nl/rss
+weights:
+    tags:
+    keyword:
