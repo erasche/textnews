@@ -55,7 +55,7 @@ def boost_it(section):
             for score_group in conf['weights'][section]:
                 words = conf['weights'][section][score_group].strip().split()
                 # Replace spaces
-                words = [x.replace('\s', ' ') for x in words]
+                words = [x.replace('%', ' ') for x in words]
                 yield (score_group, words)
 
 def valueItem(item):

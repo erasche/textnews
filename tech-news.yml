@@ -14,16 +14,24 @@ feeds:
         url: http://www.nu.nl/rss/tech
 weights:
     keyword:
+        15: |
+            kernel exploit gehackt rusland europa
         5: |
-            kernel exploit rasperry pi
+            raspberry pi vim mh370
         -5: |
-            tag\sproposal doubly-linked rust javascript
+            tag%proposal doubly-linked rust javascript galaxy%s8 kickstarter
         -21: |
-            has\sdied google\scloud aws lambda square yik yak social app
-            uber lyft apple app\sstore ceo ycombinator ruby
+            has%died google%cloud aws lambda square yik yak social app uber
+            lyft apple app%store ceo ycombinator ruby juicero [video]
+            sport%analytics lisp self-driving zelfrijdende instagram facebook
+            flying%car
     tags:
         10: |
-            hardware
+            hardware linux security
+        5: |
+            gaming drones politiek
+        -5: |
+            telefoons cogsci
     sources:
         15: |
             phys.org npr.org
