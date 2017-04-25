@@ -49,11 +49,13 @@ def get_default(name, feedurl):
         yield e.link, title, name, dt, tags, value
 
 def boost_it(section):
-    for score_group in conf['weights'][section]:
-        words = conf['weights'][section][score_group].strip().split()
-        # Replace spaces
-        words = [x.replace('\s', ' ') for x in words]
-        yield (score_group, words)
+    if section in conf['weights']:
+        if section in conf['weights'] and conf['weights'][section]:
+            for score_group in conf['weights'][section]:
+                words = conf['weights'][section][score_group].strip().split()
+                # Replace spaces
+                words = [x.replace('\s', ' ') for x in words]
+                yield (score_group, words)
 
 def valueItem(item):
     value = 0
