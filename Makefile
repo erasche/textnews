@@ -5,6 +5,7 @@ help:
 	@echo 'Run make build'
 
 build:
+	git pull > /dev/null
 	$(MAKE) pre
 	$(MAKE) $(TARGETS)
 	$(MAKE) post
