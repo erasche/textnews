@@ -10,7 +10,7 @@ from random import Random
 import feedparser
 
 DATA = sys.argv[1]
-OUT = sys.argv[1]
+OUT = sys.argv[2]
 NOW = datetime.datetime.now()
 with open(DATA, 'r', encoding='utf-8') as handle:
     conf = yaml.load(handle)
