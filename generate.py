@@ -11,7 +11,7 @@ import feedparser
 
 DATA = sys.argv[1]
 NOW = datetime.datetime.now()
-with open(DATA, 'r') as handle:
+with open(DATA, 'r', encoding='utf-8') as handle:
     conf = yaml.load(handle)
 
 
